@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F77DDAF1-406D-44A5-A3DB-DE26CA809DB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication4</RootNamespace>
+    <AssemblyName>AirlineSystem.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AirlineSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirlineSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AirlineSystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirlineSystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AirlineSystemDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirlineSystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AirlineSystemDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirlineSystemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AirlineSystemDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirlineSystemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AirlineSystemDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirlineSystemDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AirlineSystemDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirlineSystemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AirlineSystemDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirlineSystemDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerSignUp.Designer.cs">
+      <DependentUpon>CustomerSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerSignUp.resx">
+      <DependentUpon>CustomerSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="AirlineSystemDataSet.xsc">
+      <DependentUpon>AirlineSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirlineSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AirlineSystemDataSet.xss">
+      <DependentUpon>AirlineSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet1.xsc">
+      <DependentUpon>AirlineSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirlineSystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AirlineSystemDataSet1.xss">
+      <DependentUpon>AirlineSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet2.xsc">
+      <DependentUpon>AirlineSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirlineSystemDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AirlineSystemDataSet2.xss">
+      <DependentUpon>AirlineSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet3.xsc">
+      <DependentUpon>AirlineSystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirlineSystemDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AirlineSystemDataSet3.xss">
+      <DependentUpon>AirlineSystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet4.xsc">
+      <DependentUpon>AirlineSystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirlineSystemDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AirlineSystemDataSet4.xss">
+      <DependentUpon>AirlineSystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet5.xsc">
+      <DependentUpon>AirlineSystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirlineSystemDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AirlineSystemDataSet5.xss">
+      <DependentUpon>AirlineSystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet6.xsc">
+      <DependentUpon>AirlineSystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirlineSystemDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AirlineSystemDataSet6.xss">
+      <DependentUpon>AirlineSystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet7.xsc">
+      <DependentUpon>AirlineSystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="AirlineSystemDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirlineSystemDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AirlineSystemDataSet7.xss">
+      <DependentUpon>AirlineSystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMG\airline.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Airline.Business\Airline.Business.csproj">
+      <Project>{45e6ef5c-aa12-4c18-bb59-888aeb48de0b}</Project>
+      <Name>Airline.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

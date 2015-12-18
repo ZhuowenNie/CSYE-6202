@@ -1,0 +1,9 @@
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.dataAccess\bin\Debug\Airline.dataAccess.dll
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.dataAccess\bin\Debug\Airline.dataAccess.pdb
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.dataAccess\obj\Debug\Airline.dataAccess.csprojResolveAssemblyReference.cache
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.dataAccess\obj\Debug\Airline.dataAccess.dll
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.dataAccess\obj\Debug\Airline.dataAccess.pdb
+C:\Users\YICHEN\Desktop\siran asssignment\New folder (2)\WindowsFormsApplication4\Airline.dataAccess\bin\Debug\Airline.dataAccess.dll
+C:\Users\YICHEN\Desktop\siran asssignment\New folder (2)\WindowsFormsApplication4\Airline.dataAccess\bin\Debug\Airline.dataAccess.pdb
+C:\Users\YICHEN\Desktop\siran asssignment\New folder (2)\WindowsFormsApplication4\Airline.dataAccess\obj\Debug\Airline.dataAccess.dll
+C:\Users\YICHEN\Desktop\siran asssignment\New folder (2)\WindowsFormsApplication4\Airline.dataAccess\obj\Debug\Airline.dataAccess.pdb

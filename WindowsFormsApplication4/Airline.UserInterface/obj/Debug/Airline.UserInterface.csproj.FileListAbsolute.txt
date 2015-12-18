@@ -1,0 +1,10 @@
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.UserInterface\bin\Debug\Airline.UserInterface.dll
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.UserInterface\bin\Debug\Airline.UserInterface.pdb
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.UserInterface\obj\Debug\Airline.UserInterface.csprojResolveAssemblyReference.cache
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.UserInterface\obj\Debug\Airline.UserInterface.dll
+C:\Users\siran\OneDrive\文档\Visual Studio 2015\Projects\WindowsFormsApplication4\Airline.UserInterface\obj\Debug\Airline.UserInterface.pdb
+C:\Users\YICHEN\Desktop\siran asssignment\New folder (2)\WindowsFormsApplication4\Airline.UserInterface\bin\Debug\Airline.UserInterface.dll
+C:\Users\YICHEN\Desktop\siran asssignment\New folder (2)\WindowsFormsApplication4\Airline.UserInterface\bin\Debug\Airline.UserInterface.pdb
+C:\Users\YICHEN\Desktop\siran asssignment\New folder (2)\WindowsFormsApplication4\Airline.UserInterface\obj\Debug\Airline.UserInterface.csprojResolveAssemblyReference.cache
+C:\Users\YICHEN\Desktop\siran asssignment\New folder (2)\WindowsFormsApplication4\Airline.UserInterface\obj\Debug\Airline.UserInterface.dll
+C:\Users\YICHEN\Desktop\siran asssignment\New folder (2)\WindowsFormsApplication4\Airline.UserInterface\obj\Debug\Airline.UserInterface.pdb
